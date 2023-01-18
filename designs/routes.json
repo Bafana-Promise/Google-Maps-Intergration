@@ -1,0 +1,18 @@
+{
+    "routes": [
+        {
+            "component": "currentLocationComponent",
+            "path": "current-location"
+        },
+        {
+            "path": "''",
+            "redirectTo": "current-location",
+            "pathMatch": "full",
+            "default": true
+        },
+        {
+            "path": "**",
+            "component": "PageNotFoundComponent"
+        }
+    ]
+}

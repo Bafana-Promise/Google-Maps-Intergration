@@ -1,0 +1,15 @@
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutGap="20px " fxLayoutAlign="start stretch" [fxShow]="true">
+    <div fxLayout="column wrap" class="pointer" fxLayoutAlign="end end" [fxShow]="true">
+      <mat-icon class="close-icon" mat-dialog-close>close</mat-icon>
+    </div>
+    <div fxLayout="column wrap" fxLayoutGap="10px" fxLayoutAlign="start stretch" [fxShow]="true">
+      <div class="sub-header">
+        Open Current Location</div>
+      <div fxLayout="row wrap" fxLayoutAlign="space-between center" [fxShow]="true">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-raised-button [mat-dialog-close]="&apos;Yes&apos;">Yes </button></div>
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-raised-button mat-dialog-close>No</button></div>
+      </div>
+    </div>
+  </div>
+</div>

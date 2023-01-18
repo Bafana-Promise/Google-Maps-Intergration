@@ -1,0 +1,55 @@
+[
+    {
+        "id": "sd_zxK6t48tlEQAys6K",
+        "type": "tab",
+        "createdDate": "2023-01-17T10:12:30.292Z",
+        "label": "dailog",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "dailogComponent"
+    },
+    {
+        "id": "sd_G3Mde4ie9jTxYn8b",
+        "type": "OnInit",
+        "z": "sd_zxK6t48tlEQAys6K",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_G3Mde4ie9jTxYn8b",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_00YxWBQ5xIck1cfk"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "dailogComponent"
+    },
+    {
+        "id": "sd_00YxWBQ5xIck1cfk",
+        "type": "PageVariables",
+        "z": "sd_zxK6t48tlEQAys6K",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [],
+        "functionName": "sd_00YxWBQ5xIck1cfk",
+        "category": "Function",
+        "x": 180,
+        "y": 30,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

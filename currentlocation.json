@@ -1,0 +1,13 @@
+{
+    "displayName": "currentLocation",
+    "appName": "currentlocation",
+    "description": "Current Location",
+    "lastModified": "2023-01-17T10:05:36.683Z",
+    "imgSourcePath": "",
+    "version": "1.0.0",
+    "appType": "classic",
+    "templateName": "blank",
+    "createDate": "2023-01-17T10:05:36.034Z",
+    "analyticsId": "31b41b51-26e0-e989-153b-58bd5bf7a90f",
+    "createdStudioVersion": "8.1.1"
+}

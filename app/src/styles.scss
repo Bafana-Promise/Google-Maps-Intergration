@@ -1,0 +1,32 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Rubik&display=swap');
+
+.pointer{
+    cursor: pointer;
+}
+
+.red-color{
+    background: red;
+}
+
+.green-color{
+    background: green;
+}
+
+agm-map {
+  height: 455px;
+}
+.header{
+    font-family: 'Rowdies', cursive;
+}
+.sub-header{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+}
+.close-icon{
+    font-weight: 600;
+}

@@ -1,0 +1,382 @@
+[
+    {
+        "id": "sd_H0LrRAAe8tSOFYM2",
+        "type": "tab",
+        "createdDate": "2023-01-17T10:10:08.874Z",
+        "label": "currentLocation",
+        "disabled": false,
+        "info": "",
+        "functionSeq": 0,
+        "generateNext": true,
+        "serviceName": "currentLocationComponent"
+    },
+    {
+        "id": "sd_CJdswSCOperyKxGW",
+        "type": "OnInit",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "start",
+        "name": "",
+        "functionName": "sd_CJdswSCOperyKxGW",
+        "category": "Lifecycle Events",
+        "x": 30,
+        "y": 30,
+        "wires": [
+            [
+                "sd_TVf2X4ZftBgv7wkG"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "currentLocationComponent"
+    },
+    {
+        "id": "sd_TVf2X4ZftBgv7wkG",
+        "type": "PageVariables",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "pages",
+        "nodeType": "flow",
+        "name": "",
+        "inputs": 1,
+        "outputs": 1,
+        "operation": "set",
+        "globalVariables": [
+            {
+                "textIp": "res",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            },
+            {
+                "textIp": "lat",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            },
+            {
+                "textIp": "lng",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": ""
+                }
+            },
+            {
+                "textIp": "markers",
+                "typedIpValue": {
+                    "type": "literal",
+                    "value": "[]"
+                }
+            }
+        ],
+        "functionName": "sd_TVf2X4ZftBgv7wkG",
+        "category": "Function",
+        "x": 145,
+        "y": 40,
+        "wires": [
+            [
+                "sd_CPQkMqrVYfRnIaUP"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_CPQkMqrVYfRnIaUP",
+        "type": "OpenDialog",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "outputs": 4,
+        "flow": {
+            "flowId": "sd_zxK6t48tlEQAys6K",
+            "label": "dailog"
+        },
+        "relativePath": "./dailog",
+        "data": "this.page",
+        "ariaDescribedBy": "this.page",
+        "ariaLabel": "this.page",
+        "ariaLabelledBy": "this.page",
+        "autoFocus": "this.page",
+        "backdropClass": "this.page",
+        "closeOnNavigation": "this.page",
+        "direction": "this.page",
+        "disableClose": "this.page",
+        "hasBackdrop": "this.page",
+        "height": "this.page",
+        "maxHeight": "this.page",
+        "minHeight": "this.page",
+        "width": "this.page",
+        "maxWidth": "this.page",
+        "minWidth": "\"\"",
+        "panelClass": "this.page",
+        "position": "this.page",
+        "restoreFocus": "this.page",
+        "role": "this.page",
+        "resultMapping": "this.page.res",
+        "functionName": "sd_CPQkMqrVYfRnIaUP",
+        "category": "Dialog",
+        "x": 245,
+        "y": 80,
+        "wires": [
+            [],
+            [
+                "sd_9oob0Jp1zLxSWE0v"
+            ],
+            [],
+            []
+        ],
+        "__ssdTypeInputs__": {
+            "data": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "ariaDescribedBy": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "ariaLabel": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "ariaLabelledBy": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "autoFocus": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "backdropClass": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "closeOnNavigation": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "direction": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "disableClose": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "hasBackdrop": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "height": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "maxHeight": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "minHeight": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "width": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "maxWidth": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "minWidth": {
+                "type": "str",
+                "value": "",
+                "constant": false
+            },
+            "panelClass": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "position": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "restoreFocus": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "role": {
+                "type": "this.page",
+                "value": "",
+                "constant": false
+            },
+            "resultMapping": {
+                "type": "this.page",
+                "value": "res",
+                "constant": false
+            }
+        },
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_9oob0Jp1zLxSWE0v",
+        "type": "PageSwitch",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "property": "res",
+        "propertyType": "this.page",
+        "propertyGv": "this.page.res",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "functionName": "sd_9oob0Jp1zLxSWE0v",
+        "category": "Function",
+        "x": 325,
+        "y": 160,
+        "wires": [
+            [
+                "sd_8ZS7jbnWO32N88qR"
+            ],
+            [
+                "sd_8mRoNjVQClQxPaN8"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_8mRoNjVQClQxPaN8",
+        "type": "Script",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "console.log(\"No data\")\nreturn false",
+        "functionName": "sd_8mRoNjVQClQxPaN8",
+        "category": "Function",
+        "x": 440,
+        "y": 180,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_8ZS7jbnWO32N88qR",
+        "type": "Script",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "if (navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(\n        (position) => {\n            if (position) {\n                page.lat = position.coords.latitude;\n                page.lng = position.coords.longitude;\n                console.log(\"Neutrinos Studio1\", page.lat);\n                console.log(\"Neutrinos Studio2\", page.lng);\n                \n            }\n        }\n    );\n} else {\n    console.log('Location is Not found');\n}",
+        "functionName": "sd_8ZS7jbnWO32N88qR",
+        "category": "Function",
+        "x": 485,
+        "y": 60,
+        "wires": [
+            [
+                "sd_H9H5yJhvCkZ1mNX0"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_H9H5yJhvCkZ1mNX0",
+        "type": "Script",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "",
+        "functionName": "sd_H9H5yJhvCkZ1mNX0",
+        "category": "Function",
+        "x": 580,
+        "y": 80,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    },
+    {
+        "id": "sd_hKKf0wQcXefoAmi4",
+        "type": "PageStart",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "pages",
+        "nodeType": "start",
+        "name": "currentLocation",
+        "outputs": 1,
+        "inputVariables": [],
+        "localVariables": [],
+        "flow_type": "sync",
+        "functionName": "currentLocation",
+        "category": "General",
+        "x": 60,
+        "y": 240,
+        "wires": [
+            [
+                "sd_zV8k9DES3HkxPHhk"
+            ]
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": true,
+        "serviceName": "currentLocationComponent"
+    },
+    {
+        "id": "sd_zV8k9DES3HkxPHhk",
+        "type": "Script",
+        "z": "sd_H0LrRAAe8tSOFYM2",
+        "viewType": "common",
+        "nodeType": "flow",
+        "name": "",
+        "script": "if (navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(\n        (position) => {\n            if (position) {\n                page.lat = position.coords.latitude;\n                page.lng = position.coords.longitude;\n                console.log(\"Neutrinos Studio1\", page.lat);\n                console.log(\"Neutrinos Studio2\", page.lng);\n                \n            }\n        }\n    );\n} else {\n    console.log('Location is Not found');\n}",
+        "functionName": "sd_zV8k9DES3HkxPHhk",
+        "category": "Function",
+        "x": 225,
+        "y": 240,
+        "wires": [
+            []
+        ],
+        "__n_excludedFromValidation__": {},
+        "generateNext": false,
+        "generated": true
+    }
+]

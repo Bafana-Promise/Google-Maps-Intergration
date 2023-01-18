@@ -1,0 +1,31 @@
+<div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true" fxFill>
+  <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="center stretch" [fxShow]="true">
+    <div fxLayout="row wrap" fxLayoutAlign="center center" [fxShow]="true">
+      <div fxLayout="column wrap" fxFlex="85" fxLayoutAlign="start stretch" [fxShow]="true">
+        <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+          <div fxLayout="row wrap" fxLayoutGap="9px" fxLayoutAlign="start center" [fxShow]="true">
+            <h1 class="header">
+              Current Location </h1>
+            <mat-icon class="pointer" (click)="currentLocation()">location_on</mat-icon>
+          </div>
+        </div>
+        <div>
+          <agm-map height="550px" width="100%" [center]="center" [latitude]="page.lat" [longitude]="page.lng" [zoom]="12">
+            <agm-marker [latitude]="page.lat" [longitude]="page.lng"></agm-marker>
+          </agm-map>
+
+          <!-- <google-map
+  height="450px"
+  width="100%"
+  [zoom]="zoom"
+  [center]="center"
+  [options]="options"
+  [latitude]="page.lat" 
+  [longitude]="page.lng"
+></google-map>  -->
+          <!-- [options]="options" -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
