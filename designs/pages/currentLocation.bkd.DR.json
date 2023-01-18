@@ -848,7 +848,7 @@
                                 },
                                 {
                                     "_key": "html",
-                                    "_value": "<agm-map height=\"550px\" width=\"100%\" [center]=\"center\" [latitude]=\"page.lat\" [longitude]=\"page.lng\" [zoom]=\"12\">\r\n\t<agm-marker [latitude]=\"page.lat\" [longitude]=\"page.lng\"></agm-marker>\r\n</agm-map>\r\n\r\n<!-- <google-map\r\n  height=\"450px\"\r\n  width=\"100%\"\r\n  [zoom]=\"zoom\"\r\n  [center]=\"center\"\r\n  [options]=\"options\"\r\n  [latitude]=\"page.lat\" \r\n  [longitude]=\"page.lng\"\r\n></google-map>  -->\r\n<!-- [options]=\"options\" -->",
+                                    "_value": "<agm-map height=\"550px\" width=\"100%\" [center]=\"center\" [latitude]=\"page.lat\" [longitude]=\"page.lng\" [zoom]=\"12\">\r\n\t<agm-marker [latitude]=\"page.lat\" [longitude]=\"page.lng\"></agm-marker>\r\n</agm-map>",
                                     "_type": "a",
                                     "_attrDef": "p"
                                 }
